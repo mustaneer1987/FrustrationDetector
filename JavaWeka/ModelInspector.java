@@ -44,7 +44,7 @@ public class ModelInspector {
 }
 
 /* Note: 
-It is not possible to see the source code of a saved model in Java because the saved file contains 
+In Weka, it is not possible to see the source code of a saved model in Java because the saved file contains 
 a serialized object representing the state of the model, not the actual Java source code. 
 Serialization captures the data within an object at a specific moment in time and is intended 
 for storage or transmission, not for human reading or editing. Java source code, on the other hand, 
